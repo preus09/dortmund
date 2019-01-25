@@ -13,6 +13,15 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private String program;
+
+    public String getProgram() {
+        return program;
+    }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
   
   /**
    * A constructor to pass in the given ID and then name
